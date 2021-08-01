@@ -1,9 +1,9 @@
 // Create the HTML for a task
 const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => `
-    <li class="list-group-item" data-task-id=${id}>
+    <li class="list-group-item text-center" data-task-id=${id}>
         <div class="d-flex w-100 mt-2 justify-content-between align-items-center">
             <h5>${name}</h5>
-            <span class="badge badge-danger">${status}</span>
+            <span class="badge badge-danger" style="color: #000000;">${status}</span>
         </div>
         <div class="d-flex w-100 mb-3 justify-content-between">
             <small>Assigned To: ${assignedTo}</small>
@@ -40,7 +40,7 @@ class TaskManager {
 
         for (let i = 0; i < this.tasks.length; i++){
             const task = this.tasks[i];
-
+        
             if (task.id === taskId) {
                 foundTask = task;
             } 
