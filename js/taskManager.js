@@ -33,7 +33,7 @@ class TaskManager {
         };
 
         this.tasks.push(task);
-    }
+    };
 
     getTaskById(taskId) {
         let foundTask;
@@ -98,3 +98,20 @@ class TaskManager {
         }
     }
 }
+
+// const taskManager = new TaskManager();
+// const task1 = {
+//     name: 'Add task',
+//     description: 'Add a task to our task list',
+//     assignedTo: 'Bobby',
+//     dueDate: '8-01-2021'
+// }
+// const task2 = {
+//     name: 'Add second task',
+//     description: 'Add a second task to our task list',
+//     assignedTo: 'Bobby',
+//     dueDate: '8-01-2021'
+// }
+// taskManager.addTask(task1.name, task1.description, task1.assignedTo, task1.dueDate);
+// taskManager.addTask(task2.name, task2.description, task2.assignedTo, task2.dueDate);
+// console.log(taskManager.tasks);
