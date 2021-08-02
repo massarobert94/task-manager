@@ -1,7 +1,7 @@
 // Create the HTML for a task
 const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => `
-    <li class="list-group-item text-center" data-task-id=${id}>
-        <div class="d-flex w-100 mt-2 justify-content-between align-items-center">
+    <li class="list-group-item align-items-center" data-task-id=${id}>
+        <div class="d-flex w-100 mt-2 justify-content-between">
             <h5>${name}</h5>
             <span class="badge badge-danger" style="color: #000000;">${status}</span>
         </div>

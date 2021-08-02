@@ -17,7 +17,7 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 max-width: 500px;
-text-align: center;
+
 color:#000000 !important;
 }
 
@@ -29,4 +29,5 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: #000000 !important;
+margin: 2em 2em 2em 2em;
 }
