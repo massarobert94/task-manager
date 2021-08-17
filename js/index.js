@@ -40,10 +40,12 @@ taskManager.save();
 
 taskManager.render();
 
+
 newTaskNameInput.value = '';
 newTaskDescription.value = '';
 newTaskAssignedTo.value = '';
 newTaskDueDate.value = '';
+
 });
 
 const tasksList = document.querySelector('#tasksList');
